@@ -15,7 +15,6 @@
 </script>
 <?php 
 	include "head.php";
-
 	if(isset($_POST['btnProcessCall']))
 	{
 		$con = mysql_connect("localhost", "claudia", "Anpanman131");
